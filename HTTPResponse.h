@@ -9,7 +9,7 @@ class HTTPResponse
 public:
    HTTPResponse(const std::string & responseBuffer, const std::string & bodyBuffer);
    ~HTTPResponse();
-    bool DisplayHTTPResponse();
+    void DisplayHTTPResponse();
 
 private:
     bool ParseHeaderBuffer(const std::string &headerBuffer);

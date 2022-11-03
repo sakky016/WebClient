@@ -94,7 +94,7 @@ bool HTTPResponse::ParseHeaderBuffer(const string &headerBuffer)
 
 
 //-------------------------------------------------------------------------------------------------------------------
-bool HTTPResponse::DisplayHTTPResponse()
+void HTTPResponse::DisplayHTTPResponse()
 {
     cout << "-----------------------------------------------------------------\n";
     cout << "HTTP Response Header:\n";
